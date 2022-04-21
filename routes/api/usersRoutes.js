@@ -1,5 +1,6 @@
 const router = require('express').Router();
 
+//Destructure to get the methods found inside controllers
 const {
     getUsers,
     getSingleUser,

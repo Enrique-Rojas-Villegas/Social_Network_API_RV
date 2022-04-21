@@ -50,6 +50,7 @@ module.exports = {
             .catch((err) => res.status(500).json(err));
     },
 
+    // DELETE METHOD
     deleteUser(req, res) {
         User.findOneAndDelete({ _id: req.params.userId })
             .then((user) =>

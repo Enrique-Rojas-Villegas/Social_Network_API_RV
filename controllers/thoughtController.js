@@ -45,6 +45,7 @@ module.exports = {
             .catch((err) => res.status(500).json(err));
     },
 
+    // UPDATE METHOD
     updateThought(req, res) {
         Thought.findOneAndUpdate(
             { _id: req.params.thoughtId },
@@ -59,6 +60,7 @@ module.exports = {
             .catch((err) => res.status(500).json(err));
     },
 
+    // DELETE METHOD
     deleteThought(req, res) {
         Thought.findOneAndRemove({ _id: req.params.thoughtId })
             .then((thought) =>
@@ -78,6 +80,7 @@ module.exports = {
             .catch((err) => res.status(500).json(err));
     },
 
+    // CREATE METHOD
     createReaction(req, res){
         Thought.findOneAndUpdate(
             { _id: req.params.thoughtId },
@@ -91,7 +94,8 @@ module.exports = {
             )
             .catch((err) => res.status(500).json(err));
     },
-
+    
+    // DELETE METHOD
     deleteReaction(req, res) {
         Thought.findOneAndUpdate(
             { _id: req.params.thoughtId },
