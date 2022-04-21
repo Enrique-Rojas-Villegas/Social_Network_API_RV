@@ -25,6 +25,7 @@
 - [Usage](#usage)
 - [Contributors](#contributors)
 - [Questions](#questions)
+- [Video](#video)
 
 ![main](./images/social-api.PNG)
 
@@ -43,6 +44,11 @@ Provide instructions for use:
 ## Contributors
 
 Enoc Rojas Villegas
+
+## Video
+
+This is a brief explanation of how the app looks on Insomnia:
+https://drive.google.com/file/d/1YngfeivtMDBhL2Pq_fVqcvVve5nxkvJS/view
 
 ## Questions
 
